@@ -1,0 +1,60 @@
+body {
+	background: #BBBBBB;
+}
+
+.titulo {
+	position: absolute;
+	top: 20px;
+	left: 450px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.foto-pc1 {
+	width: 20%;
+	position: absolute;
+	bottom: 460px;
+	left: 185px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.valor1 {
+	position: absolute;
+	top: 400px;
+	left: 185px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 48px;
+	background: #BBBBBB;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 180px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
