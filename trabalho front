@@ -1,0 +1,72 @@
+header{
+    background-color: #FFFFFF;
+}
+
+.titulo{
+    position: absolute;
+	top: 20px;
+	left: 200px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.lista {
+    color: black;
+    font-size: 40px;
+    position: relative;
+    top: 150px;
+    padding: 50px;
+
+}
+
+nav li {
+    display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+///////////////////////////////////////////
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Breno Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Breno Games</h1>
+
+        <nav>
+            <ul>
+                <li><a class="lista" href="todos.html">Todos os jogos</a></li>
+                <li><a class="lista" href="jogo-historia.html">Jogos de História</a></li>
+                <li><a class="lista" href="jogo-acao.html">Jogos de Ação</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    
+    <main>
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+</body>
+
+</html>
