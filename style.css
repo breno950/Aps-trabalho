@@ -3,19 +3,41 @@ body {
 }
 
 .titulo {
+	color: red;
 	position: absolute;
-	top: 20px;
 	left: 450px;
+	top: 35px;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 40px;
+
 }
 
 .foto-pc1 {
 	width: 20%;
 	position: absolute;
 	bottom: 460px;
-	left: 185px;
+	left: 175px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.foto-pc2 {
+	width: 23%;
+	position: absolute;
+	bottom: 480px;
+	left: 450px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.foto-pc3 {
+	width: 20%;
+	position: absolute;
+	bottom: 460px;
+	right: 210px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
@@ -24,11 +46,39 @@ body {
 .valor1 {
 	position: absolute;
 	top: 400px;
-	left: 185px;
+	left: 175px;
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
 	font-size: 48px;
+	background: #BBBBBB;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.valor2 {
+	position: absolute;
+	top: 385px;
+	left: 470px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 55px;
+	background: #BBBBBB;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.valor3 {
+	position: absolute;
+	top: 385px;
+	right: 200px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 55px;
 	background: #BBBBBB;
 	box-sizing: border-box;
 	border: 2px solid #000000;
@@ -48,7 +98,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: blue;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
@@ -57,4 +107,29 @@ nav a {
 nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
+}
+
+footer {
+	display: inline;
+	background-color: gray;
+	font-size: 25px;
+	position: relative;
+	top: 800px;
+	padding-bottom: 50px;
+
+}
+
+footer p {
+	color: black;
+	font-size: 19px;
+
+
+}
+
+footer li {
+	font-size: 40px;
+	position: relative;
+	left: 290px;
+	display: inline;
+	margin: 0 0 0 15px;
 }
